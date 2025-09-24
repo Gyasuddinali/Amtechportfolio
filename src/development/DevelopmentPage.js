@@ -29,11 +29,14 @@ const DevelopmentPage = () => {
   };
   return (
     <div className="container development-section my-2">
-<nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+{/* <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
          <div className="container">
+           <a className="navbar-brand" href="/">home</a>
            <a className="navbar-brand" href="/portfolio">Portfolio</a>
+                     
+
          </div>
-     </nav>
+     </nav> */}
 
 <h1 className="display-4 fw-bold mb-3 text-center">
           AMTECH DIGITAL</h1><h4 className='text-dark text-center'>  SEO & Web Development Service
@@ -46,7 +49,7 @@ const DevelopmentPage = () => {
 </p>
         <p className="lead mb-4 text-dark">
   Our expert team handles everything from front-end design to back-end development, SEO optimization, 
-  and ongoing support. At OneStopService, we don’t just build websites — we create seamless digital experiences 
+  and ongoing support. At AMTECH, we don’t just build websites — we create seamless digital experiences 
   that convert visitors into loyal customers.
 </p>
 

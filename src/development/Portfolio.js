@@ -5,22 +5,22 @@ import './Portfolio.css';
 
 const projects = [
   {
-    title: "React Weather App",
-    description: "A weather forecasting app using OpenWeatherMap API.",
-    image: "https://via.placeholder.com/400x250.png?text=Weather+App",
-    link: "https://your-weather-app-link.com",
+    title: "Laptop Repair",
+    description: "One-Stop Solution To All Your IT Needs.",
+    image: "https://sdtechsolution.com/wp-content/uploads/2023/11/Laptop-Repair-Services-In-Noida.jpg",
+    link: "https://sdtechsolution.com/",
   },
   {
-    title: "E-commerce Website",
-    description: "An online store with full cart and payment features.",
-    image: "https://via.placeholder.com/400x250.png?text=E-commerce+Site",
-    link: "https://your-ecommerce-site.com",
+    title: "Laptop,Pc's Software,Amc Hardware Solution in Noida",
+    description: "We provide a variety of services, such as computer maintenance, AMC, laptop restoration, and software solutions at home, to companies of all sizes as well as to professionals working alone..",
+    image:"https://sdtechsolution.in/assets/TECHNICIAN-Pu8CGwZW.png",
+    link: "https://sdtechsolution.in/",
   },
   {
-    title: "Personal Blog",
-    description: "A blog built with Gatsby and markdown posts.",
-    image: "https://via.placeholder.com/400x250.png?text=Personal+Blog",
-    link: "https://your-blog-link.com",
+    title: "Currency Exchange Services",
+    description: "Reliable currency exchange solutions tailored for your needs in Noida",
+    image: "https://images.unsplash.com/photo-1568092715422-fff34eabbe84?auto=format&fit=crop&w=720&h=492",
+    link: "https://flyerinnforex.com/",
   },
 ];
 
@@ -28,7 +28,7 @@ const Portfolio = () => {
   return (
     <section className="portfolio py-5">
       <div className="container">
-        <h2 className="text-center mb-5 fw-bold">🌟 My Projects</h2>
+        <h2 className="text-center pt-5 mb-5 fw-bold">Our Projects</h2>
         <div className="row">
           {projects.map((project, idx) => (
             <div className="col-lg-4 col-md-6 mb-4" key={idx}>
