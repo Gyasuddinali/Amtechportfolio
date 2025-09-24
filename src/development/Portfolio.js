@@ -39,14 +39,14 @@ const Portfolio = () => {
           {projects.map((project, idx) => (
             <div className="col-lg-4 col-md-6 mb-4" key={idx}>
               <div className="card project-card h-100 shadow-lg border-0">
-                <img
+                <img data-aos="fade-down"
                   src={project.image}
                   className="card-img-top"
                   alt={project.title}
                 />
                 <div className="card-body d-flex flex-column">
-                  <h5 className="card-title">{project.title}</h5>
-                  <p className="card-text">{project.description}</p>
+                  <h5 className="card-title" data-aos="zoom-in">{project.title}</h5>
+                  <p className="card-text" data-aos="fade-left">{project.description}</p>
                   <a
                     href={project.link}
                     className="btn btn-outline-primary mt-auto"
