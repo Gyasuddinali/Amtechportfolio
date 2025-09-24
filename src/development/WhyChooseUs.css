@@ -1,0 +1,33 @@
+.why-us-section {
+  background-color: #f9f9f9;
+}
+
+.section-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #0b3d2e;
+}
+
+.section-heading span {
+  color: #d4af37; /* gold color for highlight */
+}
+
+.why-card {
+  background-color: #ffffff;
+  border-left: 4px solid #d4af37;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.why-card:hover {
+  background-color: #fff8e7;
+  transform: translateY(-5px);
+  border-left-color: #b99a2a;
+}
+
+/* Responsive typography */
+@media (max-width: 576px) {
+  .section-heading {
+    font-size: 2rem;
+  }
+}
