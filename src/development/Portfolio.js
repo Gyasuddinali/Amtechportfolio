@@ -28,7 +28,13 @@ const Portfolio = () => {
   return (
     <section className="portfolio py-5">
       <div className="container">
-        <h2 className="text-center pt-5 mb-5 fw-bold">Our Projects</h2>
+        <h2 className="text-center pt-5  fw-bold">AMTECH Portfolio</h2>
+        <p className="text-center mb-4 text-muted">
+  Welcome to my portfolio! Here are some of the projects I've been working on recently.
+  Each one showcases different skills in front-end, back-end, and UI/UX design.
+</p>
+        <h2 className="text-center  mb-5 fw-bold">We done Projects</h2>
+
         <div className="row">
           {projects.map((project, idx) => (
             <div className="col-lg-4 col-md-6 mb-4" key={idx}>
